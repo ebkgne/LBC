@@ -1,0 +1,49 @@
+
+<!---
+
+TBTC v 1..a
+
+ Only the best ;) 
+
+-->
+
+<title>TBTC v1..a</title>
+
+<link  rel="stylesheet" href="look.css"/>
+
+<script src="jq.js"></script>
+<script src="fx.js"></script>
+
+<div id="header"><b id="save">enregistrer ma recherche</b></div>
+
+<h1>trop bon trop con</h1>
+
+<div id="query">
+
+	<input type="text" value="" id="q"/><input type="submit" id="go" value="Go" />
+
+	<span id="option"><select>
+		<option selected disabled class="default">...</option>
+		<option value="([^\w]+)--$1">Regex</option>
+		<option value="([^\w]+)--$1">UnRgx</option>
+		<option value="exemple@mail.net">Mail</option>
+		<option value="neuf">NOT</option>
+		<option value="oui">Titre</option>
+		<option value="0,1000">Prix</option>
+		<option value="2000,2020">Annee</option>
+		<option value="100000,200000">Km</option>
+		<option value="5">Cat</option>
+		<!-- <option value="Bagdad,Iran">Localisation</option> -->
+	</select><input type="text" id="opt" /><a id="remove" href="#">x</a></span><a href="#" id="addopt">+</a>
+
+</div>
+
+<div id="results">
+	<div id="ad">
+		<div id="title"></div>
+		<div id="infos"></div>
+		<div id="price"></div>
+		<div id="images"></div>
+	</div>
+</div>
+<!-- We're done here ! -->
