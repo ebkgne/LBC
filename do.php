@@ -11,7 +11,7 @@ $LBCheaders = array( /* LOL HEADERS LBC 2019 */
 );
 
 
-$sqlbase = mysqli_connect("localhost", "thebeat_lbc", "thebeat_lbc", "pwnpwnpwn");
+$sqlbase = mysqli_connect("localhost", "lbc", "lbc", "");
 
 if (mysqli_connect_errno()) {
     printf("Connect failed: %s\n", mysqli_connect_error());
